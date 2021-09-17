@@ -44,6 +44,7 @@ header{
 
 .sopra{
     height: 600px;
+    padding-bottom: 20px ;
 }
 
 li{
@@ -58,10 +59,14 @@ a{
     color: rgb(80, 77, 77);
 }
 
+nav{
+    margin-bottom: 30px;
+}
+
 .bordo{
     height: 100%;
     border-radius: 10px;
-    background-size: cover;
+    background-size: content;
     background-repeat: no-repeat;
     background-image: url(../img/banner.jpg);
 }
@@ -90,10 +95,6 @@ a{
 
 /* tag della classe "sotto" */
 
-.sotto{
-    background-color: rgb(0, 60, 255) ;
-}
-
 .sfondo{
     background-color:rgb(112, 201, 204) ;
 }
@@ -101,6 +102,18 @@ a{
 .title{
     height: 100px;
     margin-bottom: 1%;
+}
+
+.title > h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.title > span{
+    font-size: 20px;
+    color: rgb(80, 77, 77);
 }
 
 aside{
