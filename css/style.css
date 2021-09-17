@@ -1,0 +1,77 @@
+/* tag generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearflix::after{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 5px;
+}
+
+/* tag body */
+
+#contenitore{
+    /* height: auto; */
+    margin: 2% 7%;
+}
+
+/* tag header */
+
+.margin{
+    margin-bottom: 2%;
+}
+
+header{
+    background-color: rgba(255, 103, 255, 0.808);
+    height: 80px;
+}
+
+/* tag main */
+
+.sopra{
+    background-color: rgb(226, 226, 47);
+    height: 500px;
+}
+
+.sotto{
+    background-color: rgb(0, 60, 255) ;
+}
+
+/* tag della classe "sotto" */
+
+.sfondo{
+    background-color:rgb(112, 201, 204) ;
+}
+
+.title{
+    height: 100px;
+    margin-bottom: 1%;
+}
+
+aside{
+    height: 400px;
+    width: 17%;
+    float: left;
+}
+
+.center{
+    /* tag da togliere */
+    height: 400px;
+    width: 64%;
+    float: left;
+    margin: 0 1%;
+
+}
+
+/* tag footer */
+
+footer{
+    background-color: blueviolet;
+    height: 40px;
+    margin-top: 1%;
+}
