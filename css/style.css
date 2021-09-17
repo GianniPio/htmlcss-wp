@@ -37,19 +37,13 @@ header{
     background-size: contain;  
     background-image: url(../img/logo.png); 
     background-repeat: no-repeat;
-    margin-right: 85%;
+    margin-right: 80%;
 }
 
 /* tag main */
 
 .sopra{
-    background-color: rgb(226, 226, 47);
-    height: 500px;
-}
-
-nav{
-    background-color: white;
-    color: rgb(80, 77, 77);
+    height: 600px;
 }
 
 li{
@@ -61,6 +55,37 @@ li{
 
 a{
     text-decoration: none;
+    color: rgb(80, 77, 77);
+}
+
+.bordo{
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner.jpg);
+}
+
+#banner{
+    
+    position:relative;
+    
+}
+
+.text_banner{
+    color: white;
+    left:50px;
+    top: 70%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text_banner > h1{
+    font-size: 30px;
+}
+
+.text_banner > span{
+    font-size: 15px;
 }
 
 /* tag della classe "sotto" */
