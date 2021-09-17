@@ -121,7 +121,16 @@ aside{
 /* tag footer */
 
 footer{
-    background-color: blueviolet;
     height: 40px;
     margin-top: 1%;
+    padding-top: 20px;
+}
+
+footer > span{
+    margin-left: 45%;
+    font-family: sans-serif;
+}
+
+footer > span::after{
+    content: "\02764\0FE0F";
 }
