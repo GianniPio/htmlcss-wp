@@ -73,13 +73,10 @@ nav{
 }
 
 #banner{
-    
-    position:relative;
-    
-    
+    position:relative; 
 }
 
-.sfondo1{
+.sfondo{
     position: absolute;
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
@@ -105,10 +102,6 @@ nav{
 
 /* tag della classe "sotto" */
 
-.sfondo{
-    background-color:rgb(112, 201, 204) ;
-}
-
 .title{
     height: 100px;
     margin-bottom: 1%;
@@ -125,6 +118,10 @@ nav{
 .title > span{
     font-size: 20px;
     color: rgb(80, 77, 77);
+}
+
+.clearflix{
+    height: 500px;
 }
 
 aside{
@@ -144,10 +141,22 @@ aside{
 .centratura{
     height: 50%;
     width: 100%;
-    background-image: url(../img/banner-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+}
+
+.sinistra > .centratura{
+    background-image: url(../img/img-1.jpg);
+    
+}
+
+.center > .centratura{
+    background-image: url(../img/banner-2.jpg);
+}
+
+.destra > .centratura{
+    background-image: url(../img/img-3.jpg);
 }
 
 /* tag footer */
