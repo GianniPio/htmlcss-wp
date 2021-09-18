@@ -60,21 +60,32 @@ a{
 }
 
 nav{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .bordo{
     height: 100%;
     border-radius: 10px;
-    background-size: content;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/banner.jpg);
+    
 }
 
 #banner{
     
     position:relative;
     
+    
+}
+
+.sfondo1{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+   
 }
 
 .text_banner{
@@ -82,7 +93,6 @@ nav{
     left:50px;
     top: 70%;
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 .text_banner > h1{
@@ -102,6 +112,7 @@ nav{
 .title{
     height: 100px;
     margin-bottom: 1%;
+    margin-top: 5%;
 }
 
 .title > h1{
@@ -137,10 +148,11 @@ footer{
     height: 40px;
     margin-top: 1%;
     padding-top: 20px;
+    text-align: center;
+
 }
 
 footer > span{
-    margin-left: 45%;
     font-family: sans-serif;
 }
 
