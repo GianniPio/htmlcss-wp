@@ -134,12 +134,20 @@ aside{
 }
 
 .center{
-    /* tag da togliere */
     height: 400px;
     width: 64%;
     float: left;
     margin: 0 1%;
+    
+}
 
+.centratura{
+    height: 50%;
+    width: 100%;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 /* tag footer */
