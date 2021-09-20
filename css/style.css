@@ -42,8 +42,7 @@ header{
 /* tag main */
 
 .sopra{
-    height: auto;
-    padding-bottom: 20px ;
+    width: auto;
 }
 
 li{
@@ -68,22 +67,18 @@ nav{
 
 .overlay{
     position: absolute;
-    background: rgba(0, 0, 0, 0.2);
-    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 99.7%;
     width: 100%;
     border-radius: 10px;
-}
-
-#banner > img{
-    object-fit: cover;
 }
 
 .text_banner{
     width: 40%;
     height: auto;
     color: white;
-    left:50px;
-    top: 70%;
+    left: 10%;
+    bottom: 20%;
     position: absolute;
 }
 
@@ -100,7 +95,6 @@ nav{
 .title{
     height: 100px;
     margin-bottom: 1%;
-    margin-top: 5%;
 }
 
 .title > h1{
@@ -123,6 +117,21 @@ aside{
     height: 400px;
     width: 17%;
     float: left;
+    position: relative;
+}
+
+img{
+    object-fit: contain;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sinistra > .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .center{
@@ -130,28 +139,31 @@ aside{
     width: 64%;
     float: left;
     margin: 0 1%;
-    
+    position: relative;
 }
 
-.centratura{
-    height: 50%;
+.center > .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    height: 60%;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
-.sinistra > .centratura{
-    background-image: url(../img/img-1.jpg);
-    
+.img_centro{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 5px;
 }
 
-.center > .centratura{
-    background-image: url(../img/banner-2.jpg);
-}
-
-.destra > .centratura{
-    background-image: url(../img/img-3.jpg);
+.destra > .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    height: 42%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* tag footer */
