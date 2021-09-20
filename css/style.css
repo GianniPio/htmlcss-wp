@@ -17,7 +17,6 @@
 /* tag body */
 
 #contenitore{
-    /* height: auto; */
     margin: 2% 7%;
 }
 
@@ -43,7 +42,7 @@ header{
 /* tag main */
 
 .sopra{
-    height: 600px;
+    height: auto;
     padding-bottom: 20px ;
 }
 
@@ -63,29 +62,25 @@ nav{
     padding-bottom: 30px;
 }
 
-.bordo{
-    height: 100%;
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/banner.jpg);
-    
-}
-
 #banner{
     position:relative; 
 }
 
-.sfondo{
+.overlay{
     position: absolute;
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
     border-radius: 10px;
-   
+}
+
+#banner > img{
+    object-fit: cover;
 }
 
 .text_banner{
+    width: 40%;
+    height: auto;
     color: white;
     left:50px;
     top: 70%;
